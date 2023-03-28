@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(255, 81, 0);
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#titulo{
+    background-color: rgb(31, 228, 5);
+    font-family: serif;
+    
+}
+#logo{
+    position: absolute;
+    top: 20%;
+    left: 80%;
+}
+#fondo2{
+    background-color: white;
+    height: 100%;
+    width: 85%;
+    position: absolute;
+    left: 8%;
+}
+#container{
+    display: flex;
+}
+.card{
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 200px;
+    background-color: rgb(255, 187, 131);
+    flex: 1;
+    transition: .3s all ease;
+    position: relative;
+    
+
+}
+.card:hover{
+    flex: 2;
+    background-color: rgb(89, 241, 28);
+}
+#cajabandera{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 700px;
+    
+}
+#retornobandera{
+    font-family: impact;
+    position: absolute;
+    top: 10%;
+    left: 80%;
+}
+#cajaescudo{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    background-color: aliceblue;
+    width: 300px;
+    height: 450px;
+}
+#textoescudo{
+    height: 700px;
+    width: 700px;
+    font-family: serif;
+    position: absolute;
+    top: 10%;
+    left: 110%;
+
+}
+#retornoescudo{
+    font-family: impact;
+    position: absolute;
+    top: 10%;
+    left: 80%;
+}
+#cajahimno{
+    background-color: rgb(252, 201, 182);
+    height: 100%;
+}
+#retornohimno{
+    font-family: impact;
+    position: absolute;
+    top: 10%;
+    left:80% ;
+}
+#logoob{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+#retornologo{
+    font-family: impact;
+    position: absolute;
+    top: 10%;
+    left: 80%;
+}
+#textologo{
+    width: 600px;
+    height: 100%;
+    position: absolute;
+    top: 100px;
+    left: 40%;
+}
